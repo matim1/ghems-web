@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>GHEM'S | Productos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="container header-content">
+
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/logo/logo.jpg" alt="GHEM'S">
+      </a>
+    </div>
+
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html" class="active">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+  <section class="products">
+    <div class="container">
+
+      <!-- ENCABEZADO -->
+      <h1>Productos</h1>
+      <p class="products-intro">
+        Conocé nuestra línea completa de productos eléctricos,
+        diseñados para brindar seguridad, calidad y durabilidad.
+      </p>
+
+      <!-- CATEGORÍAS -->
+      <div class="products-categories">
+
+        <button class="category-card" data-category="tomasmultiples">
+          <img src="assets/products/tomasmultiples/cover.jpg" alt="Tomas múltiples">
+          <span>Tomas múltiples</span>
+        </button>
+
+        <button class="category-card" data-category="prolongadores">
+          <img src="assets/products/prolongadores/cover.jpg" alt="Prolongadores">
+          <span>Prolongadores</span>
+        </button>
+
+        <button class="category-card" data-category="adaptadores">
+          <img src="assets/products/adaptadores/cover.jpg" alt="Adaptadores">
+          <span>Adaptadores</span>
+        </button>
+
+        <button class="category-card" data-category="tripydupli">
+          <img src="assets/products/tripydupli/cover.jpg" alt="Triples y duplicadoras">
+          <span>Triples y duplicadoras</span>
+        </button>
+
+        <button class="category-card" data-category="guirnaldas">
+          <img src="assets/products/guirnaldas/cover.jpg" alt="Guirnaldas">
+          <span>Guirnaldas</span>
+        </button>
+
+        <button class="category-card" data-category="lineadomi">
+          <img src="assets/products/lineadomi/cover.jpg" alt="Línea domiciliaria">
+          <span>Línea domiciliaria</span>
+        </button>
+
+      </div>
+
+      <!-- ENCABEZADO DE CATEGORÍA ACTIVA (DINÁMICO) -->
+      <div class="products-active-header" id="activeCategoryHeader"></div>
+
+      <!-- LISTADO DE PRODUCTOS (DINÁMICO / DESPLEGABLE) -->
+      <div class="products-list" id="productsList">
+        <!-- El JS inyecta acá las tarjetas de productos -->
+      </div>
+
+      <!-- CATÁLOGO -->
+      <div class="products-catalog">
+        <a href="assets/Catalogo2026.pdf" class="catalog-btn" download>
+          <img src="assets/icons/download.png" alt="">
+          Catálogo
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="container footer-content">
+
+    <div class="footer-left">
+      <h3>GHEM'S</h3>
+      <p>Productos eléctricos</p>
+    </div>
+
+    <div class="footer-right">
+      <div class="footer-column">
+        <p>Esteban de Luca 1081</p>
+        <p>2000 Rosario, Santa Fe</p>
+      </div>
+      <div class="footer-column">
+        <p>+54 9 341 5000 081</p>
+        <p>ventasghems@gmail.com</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 — Sitio desarrollado por GHEM'S</p>
+  </div>
+</footer>
+
+<script src="js/productos.js"></script>
+</body>
+</html>
+
